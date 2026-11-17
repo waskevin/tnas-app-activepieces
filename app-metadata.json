@@ -1,17 +1,13 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "developer": "管浩良",
-  "submission_status": "not_submitted",
-  "number": 1,
-  "screenshot_status": "pending",
-  "dual_arch": true,
   "name": "Activepieces",
   "source": "https://www.activepieces.com",
-  "screenshot_path": "precheck-screenshots/activepieces/x86_64/run.png",
-  "developer_account": "k.kuan@qq.com",
-  "docker_hub": "activepieces/activepieces",
-  "tag": "0.93.0"
+  "docker_image": "activepieces/activepieces:0.93.0",
+  "version": "0.93.0",
+  "repository": "https://github.com/waskevin/tnas-app-activepieces",
+  "architectures": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
+  "description": "Activepieces container application prepared for TerraMaster TOS",
+  "submission_status": "not_submitted"
 }
